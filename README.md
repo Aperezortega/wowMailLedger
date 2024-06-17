@@ -52,15 +52,15 @@ So if you have opened an email and dont see a thing in SavedVariables\AipoxMailL
 The addon is currently build for Cataclysm classic version 40400.
 If you wish to try to use this addon on a different version  open the file AipoxMailLedger.toc and modify the interface parameter.
 
-~~
-'## Interface: 40400 // CHANGE THIS FOR WHATEVER VERSION'
-'## Title: AipoxMailLedger'
-'## Notes: Register auctions sales & purchases and stores in json'
-'## Author: Roteira-Gehennas'
-'## Version: 1.0'
-'## SavedVariables: AipoxMailLedgerDB'
+~~~~
+## Interface: 40400 // CHANGE THIS FOR WHATEVER VERSION 
+## Title: AipoxMailLedger
+## Notes: Register auctions sales & purchases and stores in json
+## Author: Roteira-Gehennas
+## Version: 1.0
+## SavedVariables: AipoxMailLedgerDB
 AipoxMailLedger.lua
-~~
+~~~~
 
 ## Contributing
 If you would like to contribute to the development of this addon:
