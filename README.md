@@ -1,6 +1,6 @@
 ## Greetings Traveler!
 
-This simple addon records all sales and purchases made in the auction house to a local file. Later, this file can be read and the transactions can be stored in a SQL database or any other database of your choice.
+This simple 46 line script records all sales and purchases made in the auction house to a local file. Later, this file can be read and the transactions can be stored in a SQL database or any other database of your choice.
 
 Yes, I know there are addons like TSM that store all this information and much more. However, I find them excessively complex and it was easier for me to develop this small script than to try to extract data from TSM's local database.
 
@@ -58,9 +58,21 @@ If you wish to try to use this addon on a different version  open the file Aipox
 ## Notes: Register auctions sales & purchases and stores in json
 ## Author: Roteira-Gehennas
 ## Version: 1.0
-
 ## SavedVariables: AipoxMailLedgerDB
-
 AipoxMailLedger.lua
+
 ~~
+## Contributing
+If you would like to contribute to the development of this addon:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Open a Pull Request.
+License
+This addon is licensed under the MIT License.
+
+Contact
+For questions or support, you can reach me on discord AIPOX #8367 or [Linkedin](https://www.linkedin.com/in/albertoperezortega/)
 
