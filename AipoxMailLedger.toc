@@ -1,0 +1,10 @@
+
+## Interface: 40400
+## Title: AipoxMailLedger
+## Notes: Register auctions sales & purchases and stores in json
+## Author: Roteira-Gehennas
+## Version: 1.0
+
+## SavedVariables: AipoxMailLedgerDB
+
+AipoxMailLedger.lua
