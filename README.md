@@ -73,6 +73,6 @@ Open a Pull Request.
 License
 This addon is licensed under the MIT License.
 
-Contact
+## Contact
 For questions or support, you can reach me on discord AIPOX #8367 or [Linkedin](https://www.linkedin.com/in/albertoperezortega/)
 
