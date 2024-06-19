@@ -23,20 +23,18 @@ end
 function RegisterMails()
     print("Registrando correos...")
     local numItems, totalItems = GetInboxNumItems()
-    for i = 1, numItems do
-        local packageIcon, stationeryIcon, sender, subject, money, CODAmount, daysLeft, itemCount, wasRead, wasReturned, text, isGM = GetInboxHeaderInfo(i)
-        if not string.find(subject, "Auction cancelled:") then
-            local bodyText = GetInboxInvoiceInfo(i)
-            local invoiceType, itemName, playerName, bid, buyout, deposit, consignment = GetInboxInvoiceInfo(i)
-            if sender and (sender == "Horde Auction House" or sender == "Alliance Auction House") and subject then
-                local key = sender .. "-" .. subject .. "-" .. tostring(i)
-                AipoxMailLedgerDB[key] = {
-                    timestamp = time(),
-                    transaction = invoiceType,
-                    item = itemName,
-                    amount = buyout,
-                }
-            end
+    local packageIcon, stationeryIcon, sender, subject, money, CODAmount, daysLeft, itemCount, wasRead, wasReturned, text, isGM = GetInboxHeaderInfo(1) -- Assuming we only process the first item
+    if not string.find(subject, "Auction cancelled:") then
+        local bodyText = GetInboxInvoiceInfo(1)
+        local invoiceType, itemName, playerName, bid, buyout, deposit, consignment = GetInboxInvoiceInfo(1)
+        if sender and (sender == "Horde Auction House" or sender == "Alliance Auction House") and subject then
+            local key = sender .. "-" .. subject .. "-" .. tostring(1)
+            AipoxMailLedgerDB[key] = {
+                timestamp = time(),
+                transaction = invoiceType,
+                item = itemName,
+                amount = buyout,
+            }
         end
     end
 end
