@@ -1,6 +1,6 @@
 ## Greetings Traveler!
 
-This simple 46 lines script records all sales and purchases made in the auction house to a local file. Later, this file can be read and the transactions can be stored in a SQL database or any other database of your choice.
+This simple script of less than 50 lines records all sales and purchases made in the auction house to a local file. Later, this file can be read and the transactions can be stored in a SQL database or any other database of your choice.
 
 Yes, I know there are addons like TSM that store all this information and much more. However, I find them excessively complex and it was easier for me to develop this small script than to try to extract data from TSM's local database.
 
